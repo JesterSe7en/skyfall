@@ -26,7 +26,7 @@ So all Aria applications are assoicated with some kind of renderer api; OpenGlRe
 
 Now comes the problem of the way I structured the Vulkan Renderer Api.  There are too many singletons as that how I thought it should be structured.  However, reading a few books such as Vulkan Proramming Guide by Sellers and Kessenich, showed me a better overview of how to structure the api.
 
-![Vulkan Hierarchy](../../../public/04_sellers_fig01_01.jpg)
+![Vulkan Hierarchy](04_sellers_fig01_01.jpg)
 <p style="text-align: center;">(Source: Sellers & Kessenich, 2017)</p>
 
 It was better to NOT do singletons everywhere.  I made a mistake in the structure of my API wrapper.  I'm currently in the process of removing singletons mostly everywhere.  The VulkanRendererApi will be composed of vkInstance, vkDevice, and any other vulkan object that are needed to render a frame.
