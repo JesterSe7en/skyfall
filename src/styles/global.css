@@ -14,11 +14,11 @@ body {
 	padding: 20px;
 	max-width: 65ch;
 	text-align: left;
-	background-color: #fff;
+	background-color: #222831;
 	word-wrap: break-word;
 	overflow-wrap: break-word;
 	line-height: 1.5;
-	color: #444;
+	color: #DDDDDD;
 }
 
 h1,
@@ -30,11 +30,11 @@ h6,
 strong,
 b {
 	font-family: 'Montserrat', serif;
-	color: #222;
+	color: #DDDDDD;
 }
 
 a {
-	color: #3273dc;
+	color: #F05454;
 }
 
 nav a {
